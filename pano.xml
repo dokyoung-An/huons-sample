@@ -1,171 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour apprev="20004" start="node1" appversion="7.0.6">
+<tour appversion="7.0.6" start="node1" apprev="20004">
   <panorama id="node1">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" levelingpitch="0" width="2000" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" overlap="1">
-      <level width="2000" preload="0" predecode="0" height="2000"/>
-      <level width="1000" preload="0" predecode="0" height="1000"/>
-      <level width="500" preload="1" predecode="1" height="500"/>
+    <input leveltilesize="510" levelbias="0.400" width="2000" levelingroll="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" height="2000" levelingpitch="0">
+      <level predecode="0" preload="0" width="2000" height="2000"/>
+      <level predecode="0" preload="0" width="1000" height="1000"/>
+      <level predecode="1" preload="1" width="500" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start projection="4" pan="-9.03179" tilt="-3.32466" fov="148.118"/>
-      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fovfisheye="360" pan="360" tilt="90" scaletofit="1" fov="140" fovstereographic="330"/>
+      <start projection="4" tilt="-3.32466" fov="148.118" pan="-9.03179"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max scaletofit="1" tilt="90" fov="140" pan="360" fovstereographic="330" fovfisheye="360"/>
     </view>
-    <userdata copyright="" author="" tags="휴온메디텍스-홀1-20231031-115814" source="" nodeid="node1" comment="" title="홀1" datetime="" customnodeid="" description="" info="" heading="0" longitude="" latitude=""/>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label background="1" enabled="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" textalpha="1" borderradius="1" width="180" backgroundalpha="1" borderalpha="1" height="20" wordwrap="1" border="1"/>
-      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot url="{node2}" description="" pan="-279.88" target="" tilt="-36.88" skinid="ht_node" title="홀2" id="Point01"/>
-      <hotspot url="{node3}" description="" pan="-173.63" target="" tilt="-24.17" skinid="ht_node" title="홀3" id="Point02"/>
-      <hotspot url="{node4}" description="" pan="-109.71" target="" tilt="-17.46" skinid="ht_node" title="홀4" id="Point03"/>
-      <hotspot url="{node5}" description="" pan="-80.11" target="" tilt="-21.3" skinid="ht_node" title="홀5" id="Point04"/>
-      <hotspot url="{node6}" description="" pan="-3.2" target="" tilt="-16.05" skinid="ht_node" title="홀6" id="Point05"/>
+    <userdata copyright="" title="홀1" tags="휴온메디텍스-홀1-20231031-115814" info="" latitude="" heading="0" longitude="" description="" datetime="" author="" comment="" nodeid="node1" customnodeid="" source=""/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label wordwrap="1" bordercolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" borderradius="1" borderalpha="1" textcolor="0x000000" width="180" background="1" enabled="1" textalpha="1" height="20" border="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
+      <hotspot skinid="ht_node" url="{node2}" id="Point01" tilt="-38.89" title="홀2" pan="-266.15" description="" target=""/>
+      <hotspot skinid="ht_node" url="{node3}" id="Point02" tilt="-28.36" title="홀3" pan="-161.44" description="" target=""/>
+      <hotspot skinid="ht_node" url="{node4}" id="Point03" tilt="-19.74" title="홀4" pan="-112.48" description="" target=""/>
+      <hotspot skinid="ht_node" url="{node5}" id="Point04" tilt="-19.35" title="홀5" pan="-52.2" description="" target=""/>
+      <hotspot skinid="ht_node" url="{node6}" id="Point05" tilt="-34.13" title="홀6" pan="-327.04" description="" target=""/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomoutpause="1" type="crossdissolve" blendcolor="0x000000" zoomfov="40" delay="none" enabled="1" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" zoomspeed="2" blendtime="1"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
-    <control contextvr="1" contextprojections="0" speedwheel="1" dblclickfullscreen="0" simulatemass="1" lockedkeyboardzoom="0" invertcontrol="1" contextfullscreen="1" lockedkeyboard="0" zoomcentercursor="1" rubberband="0" hideabout="0" lockedwheel="0" sensitivity="8" invertwheel="0" lockedmouse="0"/>
+    <transition delay="none" zoomoutpause="1" zoomfov="40" zoomin="0" softedge="0" blendtime="1" zoomafteroutfov="40" blendcolor="0x000000" zoomspeed="2" enabled="1" type="crossdissolve" zoomout="0" zoomafterinfov="140"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" contextprojections="0" lockedwheel="0" zoomcentercursor="1" rubberband="0" dblclickfullscreen="0" contextfullscreen="1" invertwheel="0" hideabout="0" lockedkeyboard="0" speedwheel="1" lockedkeyboardzoom="0" contextvr="1" sensitivity="8" simulatemass="1" lockedmouse="0"/>
   </panorama>
   <panorama id="node2">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" levelingpitch="0" width="2000" levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" overlap="1">
-      <level width="2000" preload="0" predecode="0" height="2000"/>
-      <level width="1000" preload="0" predecode="0" height="1000"/>
-      <level width="500" preload="1" predecode="1" height="500"/>
+    <input leveltilesize="510" levelbias="0.400" width="2000" levelingroll="0" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" height="2000" levelingpitch="0">
+      <level predecode="0" preload="0" width="2000" height="2000"/>
+      <level predecode="0" preload="0" width="1000" height="1000"/>
+      <level predecode="1" preload="1" width="500" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start projection="4" pan="-0.887412" tilt="-3.09238" fov="160.224"/>
-      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fovfisheye="360" pan="360" tilt="90" scaletofit="1" fov="140" fovstereographic="330"/>
+      <start projection="4" tilt="-3.09238" fov="160.224" pan="-0.887412"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max scaletofit="1" tilt="90" fov="140" pan="360" fovstereographic="330" fovfisheye="360"/>
     </view>
-    <userdata copyright="" author="" tags="휴온메디텍스-홀2-20231031-115820" source="" nodeid="node2" comment="" title="홀2" datetime="" customnodeid="" description="" info="" heading="0" longitude="" latitude=""/>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label background="1" enabled="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" textalpha="1" borderradius="1" width="180" backgroundalpha="1" borderalpha="1" height="20" wordwrap="1" border="1"/>
-      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot url="{node3}" description="" pan="-253.47" target="" tilt="-20.49" skinid="ht_node" title="홀3" id="Point01"/>
-      <hotspot url="{node5}" description="" pan="-203.49" target="" tilt="-7.4" skinid="ht_node" title="홀5" id="Point02"/>
-      <hotspot url="{node5}" description="" pan="-171.68" target="" tilt="-6.43" skinid="ht_node" title="홀5" id="Point03"/>
-      <hotspot url="{node6}" description="" pan="-114.69" target="" tilt="-6.07" skinid="ht_node" title="홀6" id="Point04"/>
-      <hotspot url="{node1}" description="" pan="-186.32" target="" tilt="-31.82" skinid="ht_node" title="홀1" id="Point05"/>
+    <userdata copyright="" title="홀2" tags="휴온메디텍스-홀2-20231031-115820" info="" latitude="" heading="0" longitude="" description="" datetime="" author="" comment="" nodeid="node2" customnodeid="" source=""/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label wordwrap="1" bordercolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" borderradius="1" borderalpha="1" textcolor="0x000000" width="180" background="1" enabled="1" textalpha="1" height="20" border="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
+      <hotspot skinid="ht_node" url="{node5}" id="Point02" tilt="-7.57" title="홀5" pan="-197.58" description="" target=""/>
+      <hotspot skinid="ht_node" url="{node5}" id="Point03" tilt="-9.76" title="홀5" pan="-158.91" description="" target=""/>
+      <hotspot skinid="ht_node" url="{node6}" id="Point04" tilt="-26.72" title="홀6" pan="-120.57" description="" target=""/>
+      <hotspot skinid="ht_node" url="{node1}" id="Point05" tilt="-30.58" title="홀1" pan="-182.95" description="" target=""/>
+      <hotspot skinid="ht_node" url="{node3}" id="Point06" tilt="-16.65" title="홀3" pan="-230" description="" target=""/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomoutpause="1" type="crossdissolve" blendcolor="0x000000" zoomfov="40" delay="none" enabled="1" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" zoomspeed="2" blendtime="1"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
-    <control contextvr="1" contextprojections="0" speedwheel="1" dblclickfullscreen="0" simulatemass="1" lockedkeyboardzoom="0" invertcontrol="1" contextfullscreen="1" lockedkeyboard="0" zoomcentercursor="1" rubberband="0" hideabout="0" lockedwheel="0" sensitivity="8" invertwheel="0" lockedmouse="0"/>
+    <transition delay="none" zoomoutpause="1" zoomfov="40" zoomin="0" softedge="0" blendtime="1" zoomafteroutfov="40" blendcolor="0x000000" zoomspeed="2" enabled="1" type="crossdissolve" zoomout="0" zoomafterinfov="140"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" contextprojections="0" lockedwheel="0" zoomcentercursor="1" rubberband="0" dblclickfullscreen="0" contextfullscreen="1" invertwheel="0" hideabout="0" lockedkeyboard="0" speedwheel="1" lockedkeyboardzoom="0" contextvr="1" sensitivity="8" simulatemass="1" lockedmouse="0"/>
   </panorama>
   <panorama id="node3">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" levelingpitch="0" width="2000" levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" overlap="1">
-      <level width="2000" preload="0" predecode="0" height="2000"/>
-      <level width="1000" preload="0" predecode="0" height="1000"/>
-      <level width="500" preload="1" predecode="1" height="500"/>
+    <input leveltilesize="510" levelbias="0.400" width="2000" levelingroll="0" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" height="2000" levelingpitch="0">
+      <level predecode="0" preload="0" width="2000" height="2000"/>
+      <level predecode="0" preload="0" width="1000" height="1000"/>
+      <level predecode="1" preload="1" width="500" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start projection="4" pan="0" tilt="0" fov="160.224"/>
-      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fovfisheye="360" pan="360" tilt="90" scaletofit="1" fov="140" fovstereographic="330"/>
+      <start projection="4" tilt="0" fov="160.224" pan="0"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max scaletofit="1" tilt="90" fov="140" pan="360" fovstereographic="330" fovfisheye="360"/>
     </view>
-    <userdata copyright="" author="" tags="휴온메디텍스-홀3-20231031-115822" source="" nodeid="node3" comment="" title="홀3" datetime="" customnodeid="" description="" info="" heading="0" longitude="" latitude=""/>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label background="1" enabled="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" textalpha="1" borderradius="1" width="180" backgroundalpha="1" borderalpha="1" height="20" wordwrap="1" border="1"/>
-      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot url="{node6}" description="" pan="-169.65" target="" tilt="-0.29" skinid="ht_node" title="홀6" id="Point01"/>
-      <hotspot url="{node2}" description="" pan="-124.23" target="" tilt="-10.6" skinid="ht_node" title="홀2" id="Point02"/>
-      <hotspot url="{node4}" description="" pan="-274.86" target="" tilt="-15.48" skinid="ht_node" title="홀4" id="Point03"/>
-      <hotspot url="{node5}" description="" pan="-224.71" target="" tilt="-9.93" skinid="ht_node" title="홀5" id="Point04"/>
+    <userdata copyright="" title="홀3" tags="휴온메디텍스-홀3-20231031-115822" info="" latitude="" heading="0" longitude="" description="" datetime="" author="" comment="" nodeid="node3" customnodeid="" source=""/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label wordwrap="1" bordercolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" borderradius="1" borderalpha="1" textcolor="0x000000" width="180" background="1" enabled="1" textalpha="1" height="20" border="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
+      <hotspot skinid="ht_node" url="{node6}" id="Point01" tilt="-8.28" title="홀6" pan="-155.75" description="" target=""/>
+      <hotspot skinid="ht_node" url="{node2}" id="Point02" tilt="-14.44" title="홀2" pan="-129.97" description="" target=""/>
+      <hotspot skinid="ht_node" url="{node4}" id="Point03" tilt="-17.49" title="홀4" pan="-261.23" description="" target=""/>
+      <hotspot skinid="ht_node" url="{node5}" id="Point04" tilt="-9.89" title="홀5" pan="-209.6" description="" target=""/>
+      <hotspot skinid="ht_node" url="{node1}" id="Point05" tilt="-25.35" title="홀1" pan="-176.19" description="" target=""/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomoutpause="1" type="crossdissolve" blendcolor="0x000000" zoomfov="40" delay="none" enabled="1" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" zoomspeed="2" blendtime="1"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
-    <control contextvr="1" contextprojections="0" speedwheel="1" dblclickfullscreen="0" simulatemass="1" lockedkeyboardzoom="0" invertcontrol="1" contextfullscreen="1" lockedkeyboard="0" zoomcentercursor="1" rubberband="0" hideabout="0" lockedwheel="0" sensitivity="8" invertwheel="0" lockedmouse="0"/>
+    <transition delay="none" zoomoutpause="1" zoomfov="40" zoomin="0" softedge="0" blendtime="1" zoomafteroutfov="40" blendcolor="0x000000" zoomspeed="2" enabled="1" type="crossdissolve" zoomout="0" zoomafterinfov="140"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" contextprojections="0" lockedwheel="0" zoomcentercursor="1" rubberband="0" dblclickfullscreen="0" contextfullscreen="1" invertwheel="0" hideabout="0" lockedkeyboard="0" speedwheel="1" lockedkeyboardzoom="0" contextvr="1" sensitivity="8" simulatemass="1" lockedmouse="0"/>
   </panorama>
   <panorama id="node4">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" levelingpitch="0" width="2000" levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" overlap="1">
-      <level width="2000" preload="0" predecode="0" height="2000"/>
-      <level width="1000" preload="0" predecode="0" height="1000"/>
-      <level width="500" preload="1" predecode="1" height="500"/>
+    <input leveltilesize="510" levelbias="0.400" width="2000" levelingroll="0" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" height="2000" levelingpitch="0">
+      <level predecode="0" preload="0" width="2000" height="2000"/>
+      <level predecode="0" preload="0" width="1000" height="1000"/>
+      <level predecode="1" preload="1" width="500" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start projection="4" pan="0" tilt="0" fov="160.224"/>
-      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fovfisheye="360" pan="360" tilt="90" scaletofit="1" fov="140" fovstereographic="330"/>
+      <start projection="4" tilt="0" fov="160.224" pan="0"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max scaletofit="1" tilt="90" fov="140" pan="360" fovstereographic="330" fovfisheye="360"/>
     </view>
-    <userdata copyright="" author="" tags="휴온메디텍스-홀4-20231031-115824" source="" nodeid="node4" comment="" title="홀4" datetime="" customnodeid="" description="" info="" heading="0" longitude="" latitude=""/>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label background="1" enabled="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" textalpha="1" borderradius="1" width="180" backgroundalpha="1" borderalpha="1" height="20" wordwrap="1" border="1"/>
-      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot url="{node6}" description="" pan="-232.74" target="" tilt="-0.02" skinid="ht_node" title="홀6" id="Point01"/>
-      <hotspot url="{node2}" description="" pan="-192.66" target="" tilt="-3.98" skinid="ht_node" title="홀2" id="Point02"/>
-      <hotspot url="{node5}" description="" pan="-251.65" target="" tilt="-15.26" skinid="ht_node" title="홀5" id="Point03"/>
-      <hotspot url="{node1}" description="" pan="-196.21" target="" tilt="-23.16" skinid="ht_node" title="홀1" id="Point04"/>
+    <userdata copyright="" title="홀4" tags="휴온메디텍스-홀4-20231031-115824" info="" latitude="" heading="0" longitude="" description="" datetime="" author="" comment="" nodeid="node4" customnodeid="" source=""/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label wordwrap="1" bordercolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" borderradius="1" borderalpha="1" textcolor="0x000000" width="180" background="1" enabled="1" textalpha="1" height="20" border="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
+      <hotspot skinid="ht_node" url="{node6}" id="Point01" tilt="-5.51" title="홀6" pan="-221.51" description="" target=""/>
+      <hotspot skinid="ht_node" url="{node2}" id="Point02" tilt="-5.95" title="홀2" pan="-195.59" description="" target=""/>
+      <hotspot skinid="ht_node" url="{node5}" id="Point03" tilt="-16.25" title="홀5" pan="-266.96" description="" target=""/>
+      <hotspot skinid="ht_node" url="{node1}" id="Point05" tilt="-15.61" title="홀1" pan="-203.46" description="" target=""/>
+      <hotspot skinid="ht_node" url="{node3}" id="Point04" tilt="-16.67" title="홀3" pan="-161.56" description="" target=""/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomoutpause="1" type="crossdissolve" blendcolor="0x000000" zoomfov="40" delay="none" enabled="1" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" zoomspeed="2" blendtime="1"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
-    <control contextvr="1" contextprojections="0" speedwheel="1" dblclickfullscreen="0" simulatemass="1" lockedkeyboardzoom="0" invertcontrol="1" contextfullscreen="1" lockedkeyboard="0" zoomcentercursor="1" rubberband="0" hideabout="0" lockedwheel="0" sensitivity="8" invertwheel="0" lockedmouse="0"/>
+    <transition delay="none" zoomoutpause="1" zoomfov="40" zoomin="0" softedge="0" blendtime="1" zoomafteroutfov="40" blendcolor="0x000000" zoomspeed="2" enabled="1" type="crossdissolve" zoomout="0" zoomafterinfov="140"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" contextprojections="0" lockedwheel="0" zoomcentercursor="1" rubberband="0" dblclickfullscreen="0" contextfullscreen="1" invertwheel="0" hideabout="0" lockedkeyboard="0" speedwheel="1" lockedkeyboardzoom="0" contextvr="1" sensitivity="8" simulatemass="1" lockedmouse="0"/>
   </panorama>
   <panorama id="node5">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" levelingpitch="0" width="2000" levelbiashidpi="1.000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" overlap="1">
-      <level width="2000" preload="0" predecode="0" height="2000"/>
-      <level width="1000" preload="0" predecode="0" height="1000"/>
-      <level width="500" preload="1" predecode="1" height="500"/>
+    <input leveltilesize="510" levelbias="0.400" width="2000" levelingroll="0" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" height="2000" levelingpitch="0">
+      <level predecode="0" preload="0" width="2000" height="2000"/>
+      <level predecode="0" preload="0" width="1000" height="1000"/>
+      <level predecode="1" preload="1" width="500" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start projection="4" pan="38.9593" tilt="-0.814923" fov="148.118"/>
-      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fovfisheye="360" pan="360" tilt="90" scaletofit="1" fov="140" fovstereographic="330"/>
+      <start projection="4" tilt="-0.814923" fov="148.118" pan="38.9593"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max scaletofit="1" tilt="90" fov="140" pan="360" fovstereographic="330" fovfisheye="360"/>
     </view>
-    <userdata copyright="" author="" tags="휴온메디텍스-홀5-20231031-115838" source="" nodeid="node5" comment="" title="홀5" datetime="" customnodeid="" description="" info="" heading="0" longitude="" latitude=""/>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label background="1" enabled="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" textalpha="1" borderradius="1" width="180" backgroundalpha="1" borderalpha="1" height="20" wordwrap="1" border="1"/>
-      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot url="{node2}" description="" pan="-268.06" target="" tilt="-9.15" skinid="ht_node" title="홀2" id="Point01"/>
-      <hotspot url="{node1}" description="" pan="-276.89" target="" tilt="-22.06" skinid="ht_node" title="홀1" id="Point02"/>
-      <hotspot url="{node6}" description="" pan="-312.38" target="" tilt="-6.98" skinid="ht_node" title="홀6" id="Point03"/>
-      <hotspot url="{node3}" description="" pan="-237.77" target="" tilt="-17.1" skinid="ht_node" title="홀3" id="Point04"/>
+    <userdata copyright="" title="홀5" tags="휴온메디텍스-홀5-20231031-115838" info="" latitude="" heading="0" longitude="" description="" datetime="" author="" comment="" nodeid="node5" customnodeid="" source=""/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label wordwrap="1" bordercolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" borderradius="1" borderalpha="1" textcolor="0x000000" width="180" background="1" enabled="1" textalpha="1" height="20" border="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
+      <hotspot skinid="ht_node" url="{node2}" id="Point01" tilt="-9.15" title="홀2" pan="-268.06" description="" target=""/>
+      <hotspot skinid="ht_node" url="{node1}" id="Point02" tilt="-25.77" title="홀1" pan="-266.5" description="" target=""/>
+      <hotspot skinid="ht_node" url="{node6}" id="Point03" tilt="-19.05" title="홀6" pan="-299.64" description="" target=""/>
+      <hotspot skinid="ht_node" url="{node3}" id="Point04" tilt="-20.15" title="홀3" pan="-220.43" description="" target=""/>
+      <hotspot skinid="ht_node" url="{node4}" id="Point05" tilt="-36.21" title="홀4" pan="-168.54" description="" target=""/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomoutpause="1" type="crossdissolve" blendcolor="0x000000" zoomfov="40" delay="none" enabled="1" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" zoomspeed="2" blendtime="1"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
-    <control contextvr="1" contextprojections="0" speedwheel="1" dblclickfullscreen="0" simulatemass="1" lockedkeyboardzoom="0" invertcontrol="1" contextfullscreen="1" lockedkeyboard="0" zoomcentercursor="1" rubberband="0" hideabout="0" lockedwheel="0" sensitivity="8" invertwheel="0" lockedmouse="0"/>
+    <transition delay="none" zoomoutpause="1" zoomfov="40" zoomin="0" softedge="0" blendtime="1" zoomafteroutfov="40" blendcolor="0x000000" zoomspeed="2" enabled="1" type="crossdissolve" zoomout="0" zoomafterinfov="140"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" contextprojections="0" lockedwheel="0" zoomcentercursor="1" rubberband="0" dblclickfullscreen="0" contextfullscreen="1" invertwheel="0" hideabout="0" lockedkeyboard="0" speedwheel="1" lockedkeyboardzoom="0" contextvr="1" sensitivity="8" simulatemass="1" lockedmouse="0"/>
   </panorama>
   <panorama id="node6">
-    <input leveltilesize="510" levelingroll="0" levelbias="0.400" levelingpitch="0" width="2000" levelbiashidpi="1.000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" height="2000" overlap="1">
-      <level width="2000" preload="0" predecode="0" height="2000"/>
-      <level width="1000" preload="0" predecode="0" height="1000"/>
-      <level width="500" preload="1" predecode="1" height="500"/>
+    <input leveltilesize="510" levelbias="0.400" width="2000" levelingroll="0" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" overlap="1" height="2000" levelingpitch="0">
+      <level predecode="0" preload="0" width="2000" height="2000"/>
+      <level predecode="0" preload="0" width="1000" height="1000"/>
+      <level predecode="1" preload="1" width="500" height="500"/>
       <preview strip="1" color="0x808080"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start projection="4" pan="90.2922" tilt="-1.16369" fov="148.118"/>
-      <flyin projection="9" pan="0" tilt="-90" fov="170"/>
-      <min pan="0" tilt="-90" fovpixel="2"/>
-      <max fovfisheye="360" pan="360" tilt="90" scaletofit="1" fov="140" fovstereographic="330"/>
+      <start projection="4" tilt="5.93405" fov="148.118" pan="-4.11057"/>
+      <flyin projection="9" tilt="-90" fov="170" pan="0"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max scaletofit="1" tilt="90" fov="140" pan="360" fovstereographic="330" fovfisheye="360"/>
     </view>
-    <userdata copyright="" author="" tags="휴온메디텍스-HVR-20231031-115817" source="" nodeid="node6" comment="" title="홀6" datetime="" customnodeid="" description="" info="" heading="0" longitude="" latitude=""/>
-    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
-      <label background="1" enabled="1" bordercolor="0x000000" backgroundcolor="0xffffff" textcolor="0x000000" textalpha="1" borderradius="1" width="180" backgroundalpha="1" borderalpha="1" height="20" wordwrap="1" border="1"/>
-      <polystyle backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff" mode="0" backgroundcolor="0x0000ff" handcursor="1"/>
-      <hotspot url="{node2}" description="" pan="-299.54" target="" tilt="-17.06" skinid="ht_node" title="홀2" id="Point01"/>
-      <hotspot url="{node3}" description="" pan="-270.02" target="" tilt="-9.44" skinid="ht_node" title="홀3" id="Point02"/>
-      <hotspot url="{node4}" description="" pan="-214.12" target="" tilt="-4.17" skinid="ht_node" title="홀4" id="Point03"/>
-      <hotspot url="{node1}" description="" pan="-239.34" target="" tilt="-24.23" skinid="ht_node" title="홀1" id="Point04"/>
+    <userdata copyright="" title="홀6" tags="휴온메디텍스-HVR-20231031-115817" info="" latitude="" heading="0" longitude="" description="" datetime="" author="" comment="" nodeid="node6" customnodeid="" source=""/>
+    <hotspots wordwrap="1" width="180" height="20" smoothmovement="0">
+      <label wordwrap="1" bordercolor="0x000000" backgroundalpha="1" backgroundcolor="0xffffff" borderradius="1" borderalpha="1" textcolor="0x000000" width="180" background="1" enabled="1" textalpha="1" height="20" border="1"/>
+      <polystyle mode="0" bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1"/>
+      <hotspot skinid="ht_node" url="{node2}" id="Point01" tilt="-26.52" title="홀2" pan="-300.09" description="" target=""/>
+      <hotspot skinid="ht_node" url="{node3}" id="Point02" tilt="-14.4" title="홀3" pan="-255.16" description="" target=""/>
+      <hotspot skinid="ht_node" url="{node4}" id="Point03" tilt="-10.83" title="홀4" pan="-224.26" description="" target=""/>
+      <hotspot skinid="ht_node" url="{node1}" id="Point04" tilt="-22.28" title="홀1" pan="-242.16" description="" target=""/>
+      <hotspot skinid="ht_node" url="{node5}" id="Point05" tilt="-17.42" title="홀5" pan="-190.6" description="" target=""/>
     </hotspots>
     <media/>
-    <transition zoomin="0" zoomoutpause="1" type="crossdissolve" blendcolor="0x000000" zoomfov="40" delay="none" enabled="1" zoomout="0" zoomafterinfov="140" zoomafteroutfov="40" softedge="0" zoomspeed="2" blendtime="1"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01" clipsrandom="0"/>
-    <control contextvr="1" contextprojections="0" speedwheel="1" dblclickfullscreen="0" simulatemass="1" lockedkeyboardzoom="0" invertcontrol="1" contextfullscreen="1" lockedkeyboard="0" zoomcentercursor="1" rubberband="0" hideabout="0" lockedwheel="0" sensitivity="8" invertwheel="0" lockedmouse="0"/>
+    <transition delay="none" zoomoutpause="1" zoomfov="40" zoomin="0" softedge="0" blendtime="1" zoomafteroutfov="40" blendcolor="0x000000" zoomspeed="2" enabled="1" type="crossdissolve" zoomout="0" zoomafterinfov="140"/>
+    <animation useinautorotation="0" animsequence="Animation01" clipsrandom="0" syncanimationwithvideo="0"/>
+    <control invertcontrol="1" contextprojections="0" lockedwheel="0" zoomcentercursor="1" rubberband="0" dblclickfullscreen="0" contextfullscreen="1" invertwheel="0" hideabout="0" lockedkeyboard="0" speedwheel="1" lockedkeyboardzoom="0" contextvr="1" sensitivity="8" simulatemass="1" lockedmouse="0"/>
   </panorama>
   <masternode>
-    <userdata description="" copyright="" author="" tags="" comment="" title=""/>
+    <userdata copyright="" comment="" title="" tags="" description="" author=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
